@@ -1,0 +1,41 @@
+id,key,value,type
+82119470,highway,turning_circle,regular
+356844388,ele,176,regular
+356844388,name,Texas General Hospital,regular
+356844388,amenity,hospital,regular
+356844388,city,Grand Prairie,addr
+356844388,emergency,yes,regular
+356844388,state,Texas,addr
+356844388,street,Hospital Boulevard,addr
+356844388,edited,11/27/2006,gnis
+356844388,created,12/11/2003,gnis
+356844388,postcode,75051,addr
+356844388,state_id,48,gnis
+356844388,county_id,439,gnis
+356844388,feature_id,2025132,gnis
+356844388,housenumber,2709,addr
+3484763719,power,tower,regular
+3586951643,city,Frisco,addr
+3586951643,full,1590 Troon Drive,addr
+3586951643,street,Troon Drive,addr
+3586951643,housenumber,1590,addr
+3590839684,city,Frisco,addr
+3590839684,full,13819 Evergreen Drive,addr
+3590839684,street,Evergreen Drive,addr
+3590839684,housenumber,13819,addr
+3590892804,city,Frisco,addr
+3590892804,full,4913 Promise Land Drive,addr
+3590892804,street,Promise Land Drive,addr
+3590892804,housenumber,4913,addr
+3591036963,city,Frisco,addr
+3591036963,full,15107 Brooks Lane,addr
+3591036963,street,Brooks Lane,addr
+3591036963,housenumber,15107,addr
+3596978381,city,Frisco,addr
+3596978381,full,2723 Kettle Creek Drive,addr
+3596978381,street,Kettle Creek Drive,addr
+3596978381,housenumber,2723,addr
+3597470841,city,Frisco,addr
+3597470841,full,11604 Gatesville Drive,addr
+3597470841,street,Gatesville Drive,addr
+3597470841,housenumber,11604,addr

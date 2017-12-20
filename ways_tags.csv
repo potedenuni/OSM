@@ -1,0 +1,369 @@
+id,key,value,type
+9546564,access,private,regular
+9546564,highway,service,regular
+9546564,cfcc,A74,tiger
+9546564,tlid,42852711,tiger
+9546564,county,"Hunt, TX",tiger
+9546564,source,tiger_import_dch_v0.6_20070830,tiger
+9546564,reviewed,no,tiger
+9546564,upload_uuid,bulk_upload.pl-427ff6fc-613b-4511-96ae-f5e6bb927af6,tiger
+9945635,highway,service,regular
+9945635,cfcc,A41,tiger
+9945635,tlid,103271881,tiger
+9945635,county,"Dallas, TX",tiger
+9945635,source,tiger_import_dch_v0.6_20070829,tiger
+9945635,reviewed,no,tiger
+9945635,separated,no,tiger
+9945635,upload_uuid,bulk_upload.pl-006e0479-d70c-4fe9-9a40-7848af05bcbc,tiger
+9957821,name,South Centre Street,regular
+9957821,highway,residential,regular
+9957821,cfcc,A41,tiger
+9957821,tlid,102959778:102959782:102959784:102959787,tiger
+9957821,county,"Dallas, TX",tiger
+9957821,source,tiger_import_dch_v0.6_20070829,tiger
+9957821,reviewed,no,tiger
+9957821,zip_left,75146,tiger
+9957821,name_base,Centre,tiger
+9957821,name_type,St,tiger
+9957821,separated,no,tiger
+9957821,zip_right,75146,tiger
+9957821,name_direction_prefix,S,tiger
+9969747,name,Harrison Court,regular
+9969747,highway,residential,regular
+9969747,cfcc,A41,tiger
+9969747,tlid,103362580,tiger
+9969747,county,"Denton, TX",tiger
+9969747,source,tiger_import_dch_v0.6_20070829,tiger
+9969747,reviewed,no,tiger
+9969747,zip_left,76249,tiger
+9969747,name_base,Harrison,tiger
+9969747,name_type,Ct,tiger
+9969747,separated,no,tiger
+9969747,zip_right,76249,tiger
+9981689,name,North Josey Lane,regular
+9981689,oneway,yes,regular
+9981689,highway,secondary,regular
+9981689,cfcc,A41,tiger
+9981689,county,"Dallas, TX",tiger
+9981689,reviewed,no,tiger
+9981689,name_base,Josey,tiger
+9981689,name_type,Ln,tiger
+9981689,name_direction_prefix,N,tiger
+9993780,highway,residential,regular
+9993780,cfcc,A41,tiger
+9993780,tlid,103508314,tiger
+9993780,county,"Ellis, TX",tiger
+9993780,source,tiger_import_dch_v0.6_20070829,tiger
+9993780,reviewed,no,tiger
+9993780,separated,no,tiger
+9993780,upload_uuid,bulk_upload.pl-9809d822-d7f7-4de9-8b4c-7a255f37dc5f,tiger
+10005596,name,West Chambers Drive,regular
+10005596,highway,residential,regular
+10005596,cfcc,A41,tiger
+10005596,tlid,103486009:103486010,tiger
+10005596,county,"Ellis, TX",tiger
+10005596,source,tiger_import_dch_v0.6_20070829,tiger
+10005596,reviewed,no,tiger
+10005596,zip_left,76651,tiger
+10005596,name_base,Chambers,tiger
+10005596,name_type,Dr,tiger
+10005596,separated,no,tiger
+10005596,name_direction_prefix,W,tiger
+10018036,name,Camaro Drive,regular
+10018036,highway,residential,regular
+10018036,cfcc,A41,tiger
+10018036,county,"Johnson, TX",tiger
+10018036,reviewed,no,tiger
+10032952,access,private,regular
+10032952,highway,service,regular
+10032952,cfcc,A74,tiger
+10032952,tlid,103676972,tiger
+10032952,county,"Wise, TX",tiger
+10032952,source,tiger_import_dch_v0.6_20070830,tiger
+10032952,reviewed,no,tiger
+10032952,upload_uuid,bulk_upload.pl-d8019d95-20c4-48a1-9a7c-9b0a845fb17d,tiger
+10047458,name,Luella Street,regular
+10047458,highway,residential,regular
+10047458,cfcc,A41,tiger
+10047458,tlid,102087238:102138141:102138143:102138144:102138145:102138146:102180206:101889077:102110083,tiger
+10047458,county,"Tarrant, TX",tiger
+10047458,source,tiger_import_dch_v0.6_20070830,tiger
+10047458,reviewed,no,tiger
+10047458,zip_left,76102,tiger
+10047458,name_base,Luella,tiger
+10047458,name_type,St,tiger
+10047458,separated,no,tiger
+10047458,zip_right,76102,tiger
+10062713,name,112th Street,regular
+10062713,highway,residential,regular
+10062713,cfcc,A41,tiger
+10062713,tlid,101913427:102180024,tiger
+10062713,county,"Tarrant, TX",tiger
+10062713,source,tiger_import_dch_v0.6_20070830,tiger
+10062713,reviewed,no,tiger
+10062713,zip_left,76011,tiger
+10062713,name_base,112th,tiger
+10062713,name_type,St,tiger
+10062713,separated,no,tiger
+10062713,zip_right,76011,tiger
+15175342,highway,residential,regular
+15175342,cfcc,A41,tiger
+15175342,tlid,210480915:210506590,tiger
+15175342,county,"Collin, TX",tiger
+15175342,source,tiger_import_dch_v0.6_20070829,tiger
+15175342,reviewed,no,tiger
+15175342,separated,no,tiger
+15175342,upload_uuid,bulk_upload.pl-18ed9105-0fce-4f88-9570-66e79e89f598,tiger
+15208936,name,Freedom Lane,regular
+15208936,highway,residential,regular
+15208936,cfcc,A41,tiger
+15208936,tlid,123533254,tiger
+15208936,county,"Collin, TX",tiger
+15208936,source,tiger_import_dch_v0.6_20070829,tiger
+15208936,reviewed,no,tiger
+15208936,name_base,Freedom,tiger
+15208936,name_type,Ln,tiger
+15208936,separated,no,tiger
+20997705,highway,tertiary,regular
+20997705,old_ref,FM 4 (old FM 208),regular
+20997705,cfcc,A41,tiger
+20997705,county,"Hood, TX",tiger
+20997705,reviewed,no,tiger
+20997705,zip_left,76049,tiger
+20997705,name_base,Acton,tiger
+20997705,name_type,Hwy,tiger
+20997705,zip_right,76049,tiger
+20997705,zip_left_1,76049,tiger
+20997705,zip_left_2,76049,tiger
+20997705,zip_left_3,76049,tiger
+20997705,name_base_1,Farm-to-Market Road 4,tiger
+21240245,highway,residential,regular
+21240245,cfcc,A41,tiger
+21240245,tlid,158912940:158912941:158908840:158908694:158912908:158912909,tiger
+21240245,county,"Somervell, TX",tiger
+21240245,source,tiger_import_dch_v0.6_20070830,tiger
+21240245,reviewed,no,tiger
+21240245,separated,no,tiger
+21240245,upload_uuid,bulk_upload.pl-abb05254-0a1e-49a3-8c6d-bd9c7a3c2a82,tiger
+39421331,name,Catelyn Court,regular
+39421331,highway,residential,regular
+94448666,name,Silene Court,regular
+94448666,highway,residential,regular
+129952351,water,pond,regular
+129952351,natural,water,regular
+169463450,building,yes,regular
+169463450,man_made,water_tower,regular
+204072848,name,Legacy Court,regular
+204072848,highway,residential,regular
+232808502,amenity,parking,regular
+262843458,name,Tyler James,regular
+262843458,lanes,2,regular
+262843458,highway,residential,regular
+262843458,name,Tiger 2013 Data,source
+297123320,name,Idleair,regular
+297123320,building,yes,regular
+319800441,natural,tree_row,regular
+339784474,gauge,1435,regular
+339784474,old_railway_operator,SSW,regular
+339784474,railway,rail,regular
+339784474,cfcc,B11,tiger
+339784474,county,"Collin, TX:Dallas, TX:Tarrant, TX",tiger
+339784474,name_base,Dart:Sl SW Railroad:St Louis Southwestern Railway:St Louis Southwestern Ry Spur,tiger
+339784474,usage,main,regular
+366323498,highway,service,regular
+366323498,service,driveway,regular
+395577034,name,Oates Drive,regular
+395577034,oneway,yes,regular
+395577034,highway,secondary,regular
+395577034,cfcc,A41,tiger
+395577034,county,"Dallas, TX",tiger
+395577034,reviewed,no,tiger
+395577034,zip_left,75228,tiger
+395577034,name_base,Oates,tiger
+395577034,name_type,Dr,tiger
+395577034,zip_right,75228,tiger
+419403733,name,West North Carrier Parkway,regular
+419403733,oneway,yes,regular
+419403733,highway,secondary,regular
+419403733,cfcc,A41,tiger
+419403733,lanes,left||,turn
+419403733,county,"Tarrant, TX",tiger
+419403733,reviewed,no,tiger
+419403733,zip_left,75050,tiger
+419403733,zip_right,75050,tiger
+424637805,building,yes,regular
+444604834,name,Lawnview Avenue,regular
+444604834,highway,secondary,regular
+444604834,cfcc,A41,tiger
+444604834,county,"Dallas, TX",tiger
+444604834,reviewed,no,tiger
+444604834,zip_left,75227,tiger
+444604834,name_base,Lawnview,tiger
+444604834,name_type,Ave,tiger
+457325036,name,Artesian Creek,regular
+457325036,waterway,stream,regular
+464816739,building,house,regular
+464816739,street,South Central Expressway,addr
+464816739,housenumber,3410,addr
+465056265,building,commercial,regular
+465445648,building,house,regular
+465674229,building,apartments,regular
+465674229,street,South Jim Miller Road,addr
+465674229,housenumber,202,addr
+465716246,building,house,regular
+465763550,building,house,regular
+465763550,street,Vada Drive,addr
+465763550,housenumber,6726,addr
+466415117,building,apartments,regular
+466415117,street,West Greenway Boulevard,addr
+466415117,housenumber,7700,addr
+466464807,building,house,regular
+466464807,street,Forest Hills Boulevard,addr
+466464807,housenumber,9247,addr
+466513579,building,house,regular
+466513579,street,Rayenell Avenue,addr
+466513579,housenumber,659,addr
+466539348,building,house,regular
+466998003,building,house,regular
+466998003,street,North Morocco Avenue,addr
+466998003,housenumber,1115,addr
+467221982,building,static_caravan,regular
+467221982,street,West Ledbetter Drive,addr
+467221982,housenumber,5226,addr
+467308450,building,house,regular
+467308450,street,Grafton Avenue,addr
+467308450,housenumber,3011,addr
+467530571,building,house,regular
+467530571,street,Dove Creek Way,addr
+467530571,housenumber,4518,addr
+468444717,building,house,regular
+468502177,building,house,regular
+468502177,street,Lockhaven Drive,addr
+468502177,housenumber,8525,addr
+468540697,building,house,regular
+468759374,building,house,regular
+468820093,building,commercial,regular
+468820093,street,Hilloak Drive,addr
+468820093,housenumber,8009,addr
+468903506,building,house,regular
+468903506,street,Wagon Wheels Trail,addr
+468903506,housenumber,1690,addr
+468918339,building,house,regular
+468918339,street,Meadow Valley Lane,addr
+468918339,housenumber,1624,addr
+469140910,building,house,regular
+469140910,street,Coogan Drive,addr
+469140910,housenumber,10774,addr
+469195347,building,house,regular
+469195347,street,Lively Lane,addr
+469195347,housenumber,3929,addr
+469520647,building,house,regular
+469520647,street,Nashwood Lane,addr
+469520647,housenumber,4214,addr
+469573493,building,house,regular
+469573493,street,Country Brook Drive,addr
+469573493,housenumber,4404,addr
+470463061,highway,service,regular
+470463061,service,parking_aisle,regular
+470838793,building,house,regular
+470838793,street,Briaridge Road,addr
+470838793,housenumber,7732,addr
+471174989,building,house,regular
+471174989,street,South Masters Drive,addr
+471174989,housenumber,629,addr
+471645728,building,house,regular
+473085206,building,house,regular
+476979814,building,house,regular
+476979814,street,Energy Lane,addr
+476979814,housenumber,17458,addr
+481856671,building,house,regular
+495755910,layer,1,regular
+495755910,bridge,yes,regular
+495755910,highway,construction,regular
+495755910,construction,secondary,regular
+497506650,building,yes,regular
+497506650,street,Carroll Street,addr
+497506650,housenumber,262,addr
+497784265,building,house,regular
+497784265,street,Scarlet Sage Court,addr
+497784265,housenumber,804,addr
+498619600,building,house,regular
+498619600,street,Rogers Avenue,addr
+498619600,housenumber,2420,addr
+499097150,building,house,regular
+499097150,street,Hazeline Road,addr
+499097150,housenumber,3505,addr
+499166309,building,house,regular
+499166309,street,Clinton Avenue,addr
+499166309,housenumber,3503,addr
+499993782,ref,TX 121,regular
+499993782,lanes,3,regular
+499993782,oneway,yes,regular
+499993782,highway,motorway,regular
+499993782,placement,left_of:2,regular
+499993782,cfcc,A35,tiger
+499993782,lanes,||merge_to_left,turn
+499993782,county,"Tarrant, TX",tiger
+499993782,name_base,State Highway 121,tiger
+499993782,name_base_1,State Highway 183,tiger
+503796784,building,yes,regular
+503796784,street,Pecos Street,addr
+503796784,housenumber,3128,addr
+504037968,building,house,regular
+504037968,street,Townsend Drive,addr
+504037968,housenumber,3505,addr
+504104423,building,house,regular
+504104423,street,Truelson Drive,addr
+504104423,housenumber,5756,addr
+504264393,building,house,regular
+504264393,street,Carol Avenue,addr
+504264393,housenumber,5308,addr
+504844843,building,yes,regular
+504844843,street,Wilma Lane,addr
+504844843,housenumber,4500,addr
+504884326,building,house,regular
+504884326,street,Donalee Street,addr
+504884326,housenumber,3862,addr
+505333134,building,house,regular
+505333134,street,Geddes Avenue,addr
+505333134,housenumber,5036,addr
+505389395,building,house,regular
+505389395,street,Northwest 23rd Street,addr
+505389395,housenumber,3222,addr
+506156841,amenity,parking,regular
+506156841,parking,surface,regular
+506156841,surface,concrete,regular
+506783860,housenumber,4216,addr
+506783860,street,Park Village Court,addr
+506783860,building,house,regular
+506829035,housenumber,5101,addr
+506829035,street,Deer Ridge Court,addr
+506829035,building,house,regular
+507671919,housenumber,10021,addr
+507671919,street,Crawford Farms Drive,addr
+507671919,building,house,regular
+508477243,housenumber,4881,addr
+508477243,street,Sunset Circle South,addr
+508477243,building,house,regular
+508731934,housenumber,2617,addr
+508731934,street,Old Trinity Way,addr
+508731934,building,house,regular
+508810981,housenumber,3913,addr
+508810981,street,Wedgway Drive,addr
+508810981,building,house,regular
+509012190,housenumber,1608,addr
+509012190,street,Burmeister Road,addr
+509012190,building,house,regular
+509057678,housenumber,3945,addr
+509057678,street,Country Lane,addr
+509057678,building,house,regular
+509271050,housenumber,10025,addr
+509271050,street,Lone Eagle Drive,addr
+509271050,building,house,regular
+510312025,housenumber,9336,addr
+510312025,street,Mountain Lake Circle,addr
+510312025,building,terrace,regular
+510808081,housenumber,4912,addr
+510808081,street,Woodmeadow Drive,addr
+510808081,building,house,regular
+520371877,building,yes,regular
