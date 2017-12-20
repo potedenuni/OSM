@@ -46,7 +46,7 @@ SELECT tags.value, COUNT(*) as count
 FROM (SELECT * FROM nodes_tags UNION ALL 
       SELECT * FROM ways_tags) tags
 WHERE tags.key LIKE '%city'
-AND tags.value GLOB '%[^0-9]%'
+AND tags.value GLOB '%[0-9]%'
 ORDER BY count DESC
 
 But I get a NULL response.  Suspecting the GLOB was the problem, I tried to match on a specific string:
