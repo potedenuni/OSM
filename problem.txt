@@ -1,0 +1,68 @@
+SELECT tags.value, COUNT(*) as count 
+FROM (SELECT * FROM nodes_tags UNION ALL 
+      SELECT * FROM ways_tags) tags
+WHERE tags.key LIKE '%city'
+GROUP BY tags.value
+ORDER BY count DESC;
+
+
+Returns as expected:
+
+Frisco	495
+Plano	27
+Fort Worth	8
+Dallas	7
+Cedar Hill	4
+McKinney	4
+Waxahachie	4
+Irving	3
+Wylie	3
+Grand Prairie	2
+The Colony	2
+100	1
+2	1
+Arlington	1
+Corinth	1
+Denton	1
+Duncanville	1
+Euless	1
+Farmers Branch	1
+Keller	1
+Kennedale	1
+Lewisville	1
+Little Elm	1
+Mansfield	1
+Mesquite	1
+Nevada	1
+Palmer	1
+Richardson	1
+Rockwall	1
+Saginaw	1
+Southlake	1
+
+
+So I try to isolate the non-alpha results (so as to clean them) with the following query:
+SELECT tags.value, COUNT(*) as count
+FROM (SELECT * FROM nodes_tags UNION ALL 
+      SELECT * FROM ways_tags) tags
+WHERE tags.key LIKE '%city'
+AND tags.value GLOB '%[^0-9]%'
+ORDER BY count DESC
+
+But I get a NULL response.  Suspecting the GLOB was the problem, I tried to match on a specific string:
+SELECT tags.value, COUNT(*) as count
+FROM (SELECT * FROM nodes_tags UNION ALL 
+      SELECT * FROM ways_tags) tags
+WHERE tags.key LIKE '%city'
+AND tags.value GLOB 'Frisco'
+ORDER BY count DESC
+
+This worked... so I tried to modify to get this result for Frisco using a wildcard:
+SELECT tags.value, COUNT(*) as count
+FROM (SELECT * FROM nodes_tags UNION ALL 
+      SELECT * FROM ways_tags) tags
+WHERE tags.key LIKE '%city'
+AND tags.value GLOB 'Fris%'
+ORDER BY count DESC
+
+This did NOT work.  Can you help me figure out why the wildcard does not seem to be working in the GLOB?
