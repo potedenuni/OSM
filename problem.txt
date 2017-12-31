@@ -1,68 +1,29 @@
-SELECT tags.value, COUNT(*) as count 
-FROM (SELECT * FROM nodes_tags UNION ALL 
-      SELECT * FROM ways_tags) tags
-WHERE tags.key LIKE '%city'
-GROUP BY tags.value
-ORDER BY count DESC;
+Hi, all... quick question.  I am working through Exploratory Data Analysis, Lesson 9, Quiz 8.  I attempted to write these plots using ggplot (as opposed to qplot as suggested) and R Studio just froze when I executed grid.arrange.  So, I tried using qplot... same result.  I viewed the answer and copied every line exactly as the solution says (I think)... same result.  Here are the two attempts:
+
+plot1 <- ggplot(aes(x = price), data = diamonds) +
+ geom_histogram(binwidth = 0.01) +
+ ggtitle('Price')
+
+plot2 <- ggplot(aes(x = log10(price)), data = diamonds) +
+ geom_histogram(binwidth = 0.01) +
+ scale_x_log10() +
+ ggtitle('Price (log10)')
 
 
-Returns as expected:
+And with qplot:
+plot1 <- qplot(x = price, data = diamonds, binwidth = 0.01) +
+ ggtitle('Price')
 
-Frisco	495
-Plano	27
-Fort Worth	8
-Dallas	7
-Cedar Hill	4
-McKinney	4
-Waxahachie	4
-Irving	3
-Wylie	3
-Grand Prairie	2
-The Colony	2
-100	1
-2	1
-Arlington	1
-Corinth	1
-Denton	1
-Duncanville	1
-Euless	1
-Farmers Branch	1
-Keller	1
-Kennedale	1
-Lewisville	1
-Little Elm	1
-Mansfield	1
-Mesquite	1
-Nevada	1
-Palmer	1
-Richardson	1
-Rockwall	1
-Saginaw	1
-Southlake	1
+plot2 = qplot(x = price, data = diamonds, binwidth = 0.01) +
+ ggtitle('Prie (log10)') +
+ scale_x_log10()
 
+After each of these attempts to define the plots, this is the grid.arrange command I used:
 
-So I try to isolate the non-alpha results (so as to clean them) with the following query:
-SELECT tags.value, COUNT(*) as count
-FROM (SELECT * FROM nodes_tags UNION ALL 
-      SELECT * FROM ways_tags) tags
-WHERE tags.key LIKE '%city'
-AND tags.value GLOB '%[0-9]%'
-ORDER BY count DESC
+grid.arrange(plot1, plot2, ncol = 2)
 
-But I get a NULL response.  Suspecting the GLOB was the problem, I tried to match on a specific string:
-SELECT tags.value, COUNT(*) as count
-FROM (SELECT * FROM nodes_tags UNION ALL 
-      SELECT * FROM ways_tags) tags
-WHERE tags.key LIKE '%city'
-AND tags.value GLOB 'Frisco'
-ORDER BY count DESC
+Thoughts on why R Studio hangs?
 
-This worked... so I tried to modify to get this result for Frisco using a wildcard:
-SELECT tags.value, COUNT(*) as count
-FROM (SELECT * FROM nodes_tags UNION ALL 
-      SELECT * FROM ways_tags) tags
-WHERE tags.key LIKE '%city'
-AND tags.value GLOB 'Fris%'
-ORDER BY count DESC
+One more thing... I try to terminate execution and eventually my entire R session crashes and I have to restart R Studio.
 
-This did NOT work.  Can you help me figure out why the wildcard does not seem to be working in the GLOB?
+Thanks! (edited)
